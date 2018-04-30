@@ -167,10 +167,10 @@
 .widget_categories > ul,
 .widget_product_categories > ul,
 .widget_pages > ul {
-	font-family: 'Source Sans Pro';
+	font-family: 'Montserrat';
 }
 .primary-navigation.responsive li a {
-	font-family: 'Source Sans Pro';
+	font-family: 'Montserrat';
 }
 
 #primary-menu.no-responsive > li.megamenu-enable > ul li > a,
@@ -285,7 +285,7 @@ input[type="text"].coupon-code,
 .single-product-content .price,
 .widget_shopping_cart ul li .quantity,
 .widget_shopping_cart .total span.amount {
-	font-family: 'Source Sans Pro';
+	font-family: 'Montserrat';
 }
 
 .styled-subtitle,
@@ -882,7 +882,7 @@ option,
 .widget_archive li,
 .woocommerce-cart-form.responsive .cart-item .gem-table .shop_table td.product-price,
 .gem-media-grid-2 .vc_gitem-animated-block .vc_gitem-zone-b .vc_gitem-post-data-source-post_excerpt > div {
-	font-family: 'Source Sans Pro';
+	font-family: 'Montserrat';
 }
 
 body,
@@ -2201,7 +2201,7 @@ body .quickfinder-item .quickfinder-item-connector,
 
 #primary-navigation.responsive #primary-menu li > a,
 #primary-navigation.responsive #primary-menu li > span.megamenu-column-header > a {
-	font-family: 'Source Sans Pro';
+	font-family: 'Montserrat';
 }
 
 #primary-navigation.responsive #primary-menu li > a,

@@ -10,3 +10,7 @@ Tags: one-column, two-columns, left-sidebar, right-sidebar, responsive-layout, c
 License: GNU General Public License
 License URI: license.txt
 */
+.page-title-title > h1 { font-size: 32px; }
+.block-content {
+	padding-top: 50px;
+}
