@@ -44,7 +44,7 @@ function thegem_setup() {
 	));
 	add_filter('use_default_gallery_style', '__return_false');
 
-	add_filter('jpeg_quality', create_function('', 'return 85;'));
+	add_filter('jpeg_quality', function() { return 85; });
 
 	if(!get_option('thegem_theme_options')) {
 		update_option('thegem_theme_options', thegem_first_install_settings());

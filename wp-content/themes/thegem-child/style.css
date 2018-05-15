@@ -16,3 +16,6 @@ License URI: license.txt
 }
 
 #primary-menu.no-responsive > li > ul { width: 300px;}
+.sjb-container { width: 100%; padding-left: 0; padding-right: 0;}
+.sjb-archive-page { padding: 10px;}
+.sjb-detail { padding: 10px; }

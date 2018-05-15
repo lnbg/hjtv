@@ -23,7 +23,7 @@ class ZillaLikes {
         add_action('wp_ajax_zilla-likes', array(&$this, 'ajax_callback'));
 		add_action('wp_ajax_nopriv_zilla-likes', array(&$this, 'ajax_callback'));
         add_shortcode('zilla_likes', array(&$this, 'shortcode'));
-        add_action('widgets_init', create_function('', 'register_widget("ZillaLikes_Widget");'));
+        add_action('widgets_init', function() { register_widget("ZillaLikes_Widget"); });
 	}
 
 	function zilla_likes_textdomain() {
